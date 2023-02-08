@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs18/Assignment4/build/main.cpp
+chrono
+-
+iostream
+-
+opencv2/opencv.hpp
+-
+math.h
+-
+algorithm
+-
+
