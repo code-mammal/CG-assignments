@@ -1,2 +1,3 @@
-图形学课程作业，附源码和作业说明，作业内容包括：光栅化，光路追踪，绳索模拟，贝塞尔曲线等
-作业笔记可参考：https://www.zhihu.com/people/xia-xiao-zheng-92-98/posts
+CG course assignment. Based on CPU calculation and C++ programming, the project uses Monte Carlo method to render the image of the Cornell Box. 
+Integrates over all the illuminance arriving to a single point on the diffuse surfaces of objects. 
+Repeats the integration procedure for every pixel and uses BVH structure to accelerate collision testing and multithreading to reduce time consumption. Analyzes the results under different sampling frequencies.
